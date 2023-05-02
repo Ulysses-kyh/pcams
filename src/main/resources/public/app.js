@@ -30,7 +30,7 @@ window.eruptSiteConfig = {
     },
     //注销事件
     logout: function (user) {
-
+        window.location.replace("http://csteaching.suda.edu.cn");
     }
 };
 
