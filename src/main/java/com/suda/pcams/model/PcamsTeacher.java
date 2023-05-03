@@ -59,14 +59,14 @@ public class PcamsTeacher extends BaseModel {
     // 心理老师邮箱
     @EruptField(
             views = @View(title = "心理老师邮箱"),
-            edit = @Edit(title = "心理老师邮箱")
+            edit = @Edit(title = "心理老师邮箱", notNull = true)
     )
     private String teacherMail;
 
     // 心理老师手机号
     @EruptField(
             views = @View(title = "心理老师手机号"),
-            edit = @Edit(title = "心理老师手机号")
+            edit = @Edit(title = "心理老师手机号", notNull = true)
     )
     private String teacherPhone;
 
